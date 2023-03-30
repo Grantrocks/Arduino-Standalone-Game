@@ -1,6 +1,9 @@
 
 #define nop __asm__("nop \n")
-
+#include "pitches.h"
+int melody[] = {
+  NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
+};
 
 #define SCREEN_W 40
 #define SCREEN_H 30
